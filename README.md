@@ -1,6 +1,6 @@
 # Quotes API
 
-This is a simple Express / NodeJS powered api for web development purposes.
+This is a simple Express / NodeJS powered API for web development purposes.
 
 This application is CORS enabled, so all endpoints are open to public consumption. There is no security on the endponts.
 
