@@ -6,7 +6,7 @@ crud.loadData(data);
 module.exports = {
     register: function (app) {
 
-        app.get('/', (req, res) => {
+        app.get('/quote', (req, res) => {
             res.send(crud.getAll());
         });
 
