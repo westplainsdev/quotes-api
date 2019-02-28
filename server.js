@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 app.use(cors());
 
-const quotesApi = require('./quotes/quotesApi');
+const quotesApi = require('./quotes/');
 quotesApi.register(app);
 
 app.listen(process.env.PORT || 3412, () => {
