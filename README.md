@@ -6,11 +6,13 @@ This application is CORS enabled, so all endpoints are open to public consumptio
 
 The quotes api itself does support proper HTTP verb endpoints. You should be able to do the following actions:
 
-1. Get All Quotes
-2. Get a Quote by Id
-3. Add a Quote
-4. Update a Quote
-5. Delete a Quote
+## API
+
+     /api/quote           | GET    | returns all quotes
+     /api/quote/{id}      | GET    | returns a specific quote by 'id'
+     /api/quote           | POST   | add a new quote
+     /api/quote/{id}      | PUT    | update an quote
+     /api/quote/{id}      | DELETE | deletes an quote
 
 ## Instructions
 
